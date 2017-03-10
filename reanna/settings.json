@@ -1,33 +1,25 @@
 {
+  "room": "ReAnna",
+  "author": "ReAnna",
   "plugins": [
-    "https://extplug.github.io/advanced-autocomplete/build/advanced-autocomplete.js;extplug/advanced-autocomplete/main",
-    "https://extplug.github.io/room-styles/build/room-styles.js;extplug/room-styles/main",
-    "https://extplug.github.io/user-profiles/build/user-profiles.js;extplug/user-profiles/main",
-    "https://extplug.github.io/custom-emoji/build/custom-emoji.js;extplug/custom-emoji/main",
-    "https://welovekpop.github.io/wlk-plugin/wlk-plugin.js;welovekpop/wlk-plugin/main"
+    "extplug-advanced-autocomplete",
+    "extplug-room-styles",
+    "extplug-user-profiles",
+    "extplug-custom-emoji"
   ],
-  "room": "WE â™¥ KPOP",
   "rules": {
+    "allowAutograb": true,
+    "allowAutojoin": false,
     "allowAutorespond": true,
     "allowAutowoot": true,
-    "allowAutojoin": false
+    "allowEmotes": true,
+    "allowShowingMehs": true,
+    "allowSmartVote": true,
+    "forceSmartVote": false
   },
-  "images": {
-    "background": "//welovekpop.club/wp-content/uploads/2014/05/djbackground3.png",
-    "booth": "//welovekpop.club/wp-content/uploads/2014/05/djbooth.png",
-    "playback": "//welovekpop.club/wp-content/uploads/2014/05/playerbg.png",
-    "icons": {
-      "host": "//welovekpop.club/wp-content/uploads/2015/08/host.png",
-      "cohost": "//welovekpop.club/wp-content/uploads/2015/08/host.png",
-      "manager": "//welovekpop.club/wp-content/uploads/2014/07/manager.png",
-      "bouncer": "//welovekpop.club/wp-content/uploads/2014/07/bouncer.png",
-      "residentdj": "//welovekpop.club/wp-content/uploads/2014/09/disk.png"
-    }
-  },
+  "css": {},
+  "images": {},
   "colors": {
-    "background": "",
-    "footer": "",
-    "header": "",
     "chat": {
       "admin": "#ff00cc",
       "ambassador": "#89be6c",
@@ -38,21 +30,16 @@
       "residentdj": "#ffcd40"
     }
   },
-  "css": {
-    "font": [],
-    "import": ["https://pluglynn.neocities.org/rs.css"],
-    "rule": {}
-  },
   "emotes": {
-    "eyescross": "https://i.imgur.com/UwhyRFS.png",
-    "eyesdown": "https://i.imgur.com/7xElKjk.png",
-    "eyesmid": "https://i.imgur.com/AYOcMjF.png",
-    "eyesright": "https://i.imgur.com/deVuEjA.png",
-    "eyesup": "https://i.imgur.com/0NBxWZm.png",
-    "kool_panda": "https://i.imgur.com/PgmyLDx.png",
-    "woot": "https://i.imgur.com/Hdx7goX.png",
-    "meh": "https://i.imgur.com/yYBxHFS.png",
-    "grab": "https://i.imgur.com/vnlRnyK.png"
+    "eyescross": "https://welovekpop.club/assets/emotes/eyescross.png",
+    "eyesdown": "https://welovekpop.club/assets/emotes/eyesdown.png",
+    "eyesmid": "https://welovekpop.club/assets/emotes/eyesmid.png",
+    "eyesright": "https://welovekpop.club/assets/emotes/eyesright.png",
+    "eyesup": "https://welovekpop.club/assets/emotes/eyesup.png",
+    "kool_panda": "https://welovekpop.club/assets/emotes/kool_panda.png",
+    "woot": "https://welovekpop.club/assets/emotes/woot.png",
+    "grab": "https://welovekpop.club/assets/emotes/grab.png",
+    "meh": "https://welovekpop.club/assets/emotes/meh.png"
   },
   "autocomplete": [
     {
