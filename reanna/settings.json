@@ -17,7 +17,23 @@
     "allowSmartVote": false,
     "forceSmartVote": false
   },
-  "css": "http://localhost:3000/reanna.css",
+  "css": {
+    "font": [
+      {"name": "Font 1 Name", "url": "Url to font"},
+      {
+        "name": "Font 2 Name",
+        "url": {"ttf": "Url 1 to font", "woff": "Url 2 to font"}
+      }
+    ],
+    "import": [
+      "https://example.com/example1.css",
+      "https://example.com/example2.css"
+    ],
+    "rule": {
+      "#room-name": {"color": "blue", "font-variant": "small-caps"},
+      "#now-playing-media": {"font-variant": "small-caps"}
+    }
+  },
   "images": {},
   "colors": {
     "chat": {
