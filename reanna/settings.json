@@ -9,7 +9,7 @@
   ],
   "rules": {
     "allowAutograb": true,
-    "allowAutojoin": false,
+    "allowAutojoin": true,
     "allowAutorespond": false,
     "allowAutowoot": true,
     "allowEmotes": false,
