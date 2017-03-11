@@ -1,3 +1,7 @@
 /* Test styles */
 
 * { color: red !important }
+
+#chat-input-field {
+  background: hotpink;
+}
