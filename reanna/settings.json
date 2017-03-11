@@ -8,13 +8,13 @@
     "extplug-custom-emoji"
   ],
   "rules": {
-    "allowAutograb": false,
+    "allowAutograb": true,
     "allowAutojoin": false,
     "allowAutorespond": false,
-    "allowAutowoot": false,
+    "allowAutowoot": true,
     "allowEmotes": false,
-    "allowShowingMehs": false,
-    "allowSmartVote": false,
+    "allowShowingMehs": true,
+    "allowSmartVote": true,
     "forceSmartVote": false
   },
   "css": "https://rs.extplug.com/reanna.css",
