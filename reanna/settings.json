@@ -10,9 +10,9 @@
   "rules": {
     "allowAutograb": true,
     "allowAutojoin": false,
-    "allowAutorespond": true,
+    "allowAutorespond": false,
     "allowAutowoot": true,
-    "allowEmotes": true,
+    "allowEmotes": false,
     "allowShowingMehs": true,
     "allowSmartVote": true,
     "forceSmartVote": false
