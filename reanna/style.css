@@ -1,7 +1,13 @@
-/* Test styles */
-
-* { color: red !important }
-
 #chat-input-field {
-  background: hotpink;
+  border-color: hotpink;
 }
+
+#chat {
+  background: #300;
+  
+  &.cm:nth-child(2n + 1) {
+    background: #201;
+  }
+}
+
+/* Comment should be removed */
