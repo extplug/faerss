@@ -1,1 +1,10 @@
-.app-header { background-color: hotpink }
+:root {
+  --color: hotpink
+}
+
+#chat {
+  background: color(var(--color) a(10%));
+  & .cm:nth-child(odd) {
+    background: color(var(--color) a(20%));
+  }
+}
