@@ -1,5 +1,9 @@
+:root {
+  --color: hotpink
+}
+
 #chat-input-field {
-  border-color: hotpink;
+  border-color: var(--color);
 }
 
 #chat {
@@ -10,8 +14,12 @@
   }
 }
 
+#room-name .bar-value {
+  color: var(--color);
+}
+
 #room-host > .username {
-  color: hotpink !important
+  color: var(--color) !important
 }
 
 /* Comment should be removed */
