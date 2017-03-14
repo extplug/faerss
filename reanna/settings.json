@@ -9,7 +9,7 @@
   ],
   "rules": {
     "allowAutograb": true,
-    "allowAutojoin": true,
+    "allowAutojoin": false,
     "allowAutorespond": false,
     "allowAutowoot": true,
     "allowEmotes": false,
@@ -27,7 +27,8 @@
       "cohost": "#ff00cc",
       "manager": "#42a5dc",
       "bouncer": "#79beb0",
-      "residentdj": "#ffcd40"
+      "residentdj": "#ffcd40",
+      "dj": "#ffcd40"
     }
   },
   "emotes": {
