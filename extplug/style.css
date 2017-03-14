@@ -1,0 +1,161 @@
+/* Converted from plug³ style object */
+
+#p3-dj-booth {
+  left: 18px;
+  top: 135px;
+}
+
+#playback .background img {
+  opacity: 0;
+}
+
+#header {
+  opacity: 0.75;
+}
+
+#plug-menu {
+  background: rgba(40, 44, 53, 0.94) !important;
+}
+
+#plug-menu .legal {
+  background: rgba(68, 74, 89, 0.46) !important;
+}
+
+#settings {
+  background: rgba(10, 10, 10, 0.89) !important;
+}
+
+#settings .header {
+  background: rgba(28, 31, 37, 0.78) !important;
+}
+
+#chat {
+  background: none;
+}
+
+#room .app-right {
+  background: rgba(10, 10, 10, 0.7);
+}
+
+#room .room-background {
+  width: 2600px !important;
+  height: 2000px !important;
+}
+
+#footer {
+  background: rgba(40, 44, 53, 0.8);
+}
+
+#waitlist .list .user {
+  background: none;
+}
+
+#user-lists .list .user:hover {
+  background-color: rgba(28, 31, 37, 0.5);
+}
+
+#chat .message:nth-child(2n+1),#chat .skip:nth-child(2n+1),#chat .mention:nth-child(2n+1),#chat .moderation:nth-child(2n+1),#chat .emote:nth-child(2n+1),#chat .update:nth-child(2n+1),#chat .welcome:nth-child(2n+1) {
+  background-color: rgba(17, 19, 23, 0.75);
+}
+
+#chat .mention {
+  background-color: rgba(23, 141, 252, 0.22) !important;
+  font-weight: 700;
+  border-left: #ac76ff 3px solid;
+}
+
+#chat .emote, #chat .mention, #chat .message, #chat .moderation, #chat .skip, #chat .system, #chat .update, #chat .welcome {
+  -webkit-animation: fadein 0.25s;
+  -moz-animation: fadein 0.25s;
+  -ms-animation: fadein 0.25s;
+  -o-animation: fadein 0.25s;
+  animation: fadein 0.25s;
+}
+
+#chat .message:nth-child(2n+1),#chat .mention:nth-child(2n+1),#chat .skip:nth-child(2n+1),#chat .moderation:nth-child(2n+1),#chat .emote:nth-child(2n+1),#chat .update:nth-child(2n+1),#chat .welcome:nth-child(2n+1) {
+  background-color: rgba(17, 19, 23, 0.32);
+  -webkit-animation: fadein 0.25s;
+  -moz-animation: fadein 0.25s;
+  -ms-animation: fadein 0.25s;
+  -o-animation: fadein 0.25s;
+  animation: fadein 0.25s;
+}
+
+@keyframes fadein {
+  from {opacity: 0;};
+  to {opacity: 1;};
+}
+
+@-moz-keyframes fadein {
+  from {opacity: 0;};
+  to {opacity: 1;};
+}
+
+@-webkit-keyframes fadein {
+  from {opacity: 0;};
+  to {opacity: 1;};
+}
+
+@-ms-keyframes fadein {
+  from {opacity: 0;};
+  to {opacity: 1;};
+}
+
+@-o-keyframes fadein {
+  from {opacity: 0;};
+  to {opacity: 1;};
+}
+
+#user-lists .list {
+  -webkit-animation: fadein 0.5s;
+  -moz-animation: fadein 0.5s;
+  -ms-animation: fadein 0.5s;
+  -o-animation: fadein 0.5s;
+  animation: fadein 0.5s;
+}
+
+#waitlist .list {
+  -webkit-animation: fadein 0.5s;
+  -moz-animation: fadein 0.5s;
+  -ms-animation: fadein 0.5s;
+  -o-animation: fadein 0.5s;
+  animation: fadein 0.5s;
+}
+
+#chat [data-cid^="6003320"] {
+  color: rgba(66, 165, 220, 0.9);
+}
+
+#chat [data-cid^="6003320"] .msg .from.staff .un {
+  color: #ac76ff !important;
+}
+/*
+#chat [data-cid^="6003320"] .badge-box i {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: url('https://pluglynn.neocities.org/sekshi.png') no-repeat center center;
+}
+
+#chat [data-cid^="6003320"] .msg .from.staff .icon {
+  background: url('https://pluglynn.neocities.org/emoji.png') no-repeat -51px -204px;
+}
+
+#chat [data-cid^="3685410"] .icon-chat-host {
+  background: url('https://pluglynn.neocities.org/emoji.png') no-repeat -34px -1122px;
+}
+
+#chat [data-cid^="4264217"] .icon-chat-host {
+  background: url('https://pluglynn.neocities.org/emoji.png') no-repeat -34px -697px;
+}
+
+#chat [data-cid^="3576298"] .icon {
+  background: url('https://pluglynn.neocities.org/emoji.png') no-repeat -119px -408px;
+}
+*/
+.promo {
+  display: none !important;
+}
+
