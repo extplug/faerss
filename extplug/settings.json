@@ -1,0 +1,90 @@
+{
+  "colors": {
+    "background": "",
+    "chat": {
+      "admin": "FF00CC",
+      "ambassador": "",
+      "bouncer": "79beb0",
+      "cohost": "FF00CC",
+      "residentdj": "ffcd40",
+      "host": "FF00CC",
+      "manager": "42A5DC",
+      "dj": "ffcd40"
+    },
+    "footer": "",
+    "header": ""
+  },
+  "css": "https://rs.extplug.com/extplug.css",
+  "images": {
+    "background": "//welovekpop.club/wp-content/uploads/2014/05/djbackground3.png",
+    "booth": "//welovekpop.club/wp-content/uploads/2014/05/djbooth.png",
+    "playback": "//welovekpop.club/wp-content/uploads/2014/05/playerbg.png",
+    "icons": {
+      "residentdj": "//welovekpop.club/wp-content/uploads/2014/09/disk.png",
+      "manager": "//welovekpop.club/wp-content/uploads/2014/07/manager.png",
+      "cohost": "",
+      "bouncer": "//welovekpop.club/wp-content/uploads/2014/07/bouncer.png",
+      "host": "",
+      "dj": "//welovekpop.club/wp-content/uploads/2014/09/disk.png"
+    }
+  },
+  "rules": {
+    "allowAutorespond": "true",
+    "allowAutowoot": "true",
+    "allowAutojoin": "false"
+  },
+  "emoji": {
+    "bbunny": "https://wlk.slack.com/emoji/bbunny/ea6b8ee249bf8837.gif"
+  },
+  "autocomplete": [
+    {
+      "trigger": "!",
+      "suggestions": [
+        {"string": "emote", "icon": "icon-community-users"},
+        {"string": "karma", "icon": "icon-community-users"},
+        {"string": "bump", "icon": "icon-community-users"},
+        {"string": "thump", "icon": "icon-community-users"},
+        {"string": "karmawhores", "icon": "icon-community-users"},
+        {"string": "fistbump", "icon": "icon-community-users"},
+        {"string": "fistthump", "icon": "icon-community-users"},
+        {"string": "bitch", "icon": "icon-community-users"},
+        {"string": "pimp", "icon": "icon-community-users"},
+        {"string": "roulette", "icon": "icon-chat-bouncer"},
+        {"string": "play", "icon": "icon-community-users"},
+        {"string": "withdraw", "icon": "icon-community-users"},
+        {"string": "stoproulette", "icon": "icon-chat-bouncer"},
+        {"string": "players", "icon": "icon-community-users"},
+        {"string": "lastroulette", "icon": "icon-chat-bouncer"},
+        {"string": "luckybastards", "icon": "icon-chat-bouncer"},
+        {"string": "set", "icon": "icon-chat-manager"},
+        {"string": "get", "icon": "icon-chat-bouncer"},
+        {"string": "eta", "icon": "icon-community-users"},
+        {"string": "skip", "icon": "icon-chat-bouncer"},
+        {"string": "lockskip", "icon": "icon-chat-bouncer"},
+        {"string": "fb", "icon": "icon-community-users"},
+        {"string": "web", "icon": "icon-community-users"},
+        {"string": "gh", "icon": "icon-community-users"},
+        {"string": "help", "icon": "icon-community-users"},
+        {"string": "lastplayed", "icon": "icon-chat-dj"},
+        {"string": "playcount", "icon": "icon-chat-dj"},
+        {"string": "mostplayed", "icon": "icon-chat-dj"},
+        {"string": "clearwaitlist", "icon": "icon-chat-manager"},
+        {"string": "move", "icon": "icon-chat-bouncer"},
+        {"string": "ban", "icon": "icon-chat-bouncer"},
+        {"string": "mute", "icon": "icon-chat-bouncer"},
+        {"string": "eatshit", "icon": "icon-chat-bouncer"},
+        {"string": "lock", "icon": "icon-chat-manager"},
+        {"string": "unlock", "icon": "icon-chat-manager"},
+        {"string": "unmute", "icon": "icon-chat-bouncer"},
+        {"string": "rule", "icon": "icon-community-users"},
+        {"string": "reloadmodule", "icon": "icon-chat-manager"},
+        {"string": "unloadmodule", "icon": "icon-chat-manager"},
+        {"string": "loadmodule", "icon": "icon-chat-manager"},
+        {"string": "enablemodule", "icon": "icon-chat-manager"},
+        {"string": "disablemodule", "icon": "icon-chat-manager"},
+        {"string": "moduleinfo", "icon": "icon-chat-manager"},
+        {"string": "listmodules", "icon": "icon-chat-manager"}
+      ]
+    }
+  ]
+}
