@@ -10,4 +10,8 @@
   }
 }
 
+#room-host > .username {
+  color: hotpink !important
+}
+
 /* Comment should be removed */
