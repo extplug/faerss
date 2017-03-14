@@ -29,9 +29,12 @@
     }
   },
   "rules": {
-    "allowAutorespond": "true",
+    "allowAutorespond": false,
     "allowAutowoot": "true",
-    "allowAutojoin": "false"
+    "allowAutojoin": false,
+    "allowSmartVote": true,
+    "allowAutograb": true,
+    "allowShowingMehs": true
   },
   "emoji": {
     "bbunny": "https://wlk.slack.com/emoji/bbunny/ea6b8ee249bf8837.gif"
