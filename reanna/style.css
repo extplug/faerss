@@ -7,10 +7,10 @@
 }
 
 #chat {
-  background: #303;
+  background: #202;
   
   & .cm:nth-child(2n + 1) {
-    background: #202;
+    background: #101;
   }
 }
 
