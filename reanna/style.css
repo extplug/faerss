@@ -8,3 +8,7 @@
     background: color(var(--color) a(20%));
   }
 }
+
+#room-settings-menu .item.selected {
+  background: color(var(--color) lightness(- 30%));
+}
